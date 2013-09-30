@@ -367,6 +367,12 @@ p {
 .example-image:hover {
   opacity: 1;
 }
+.example-image:active {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
 .logo {
   margin-top: -14px;
   margin-bottom: 0px;
